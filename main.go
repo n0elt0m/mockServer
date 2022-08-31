@@ -11,7 +11,7 @@ type Weather struct {
 }
 
 func main() {
-	println("Running...")
+	println("Running..")
 }
 func GetWeather(url string) (*Weather, error) {
 	resp, err := http.Get(url)
