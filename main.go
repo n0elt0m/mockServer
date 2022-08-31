@@ -10,6 +10,9 @@ type Weather struct {
 	Forecast string `json:"forecast"`
 }
 
+func main() {
+	println("Running...")
+}
 func GetWeather(url string) (*Weather, error) {
 	resp, err := http.Get(url)
 	if err != nil {
